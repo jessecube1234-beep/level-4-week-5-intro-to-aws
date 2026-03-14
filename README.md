@@ -19,8 +19,6 @@ The project is intended to be uploaded to an S3 bucket and served publicly throu
 - `styles.css` - page styles
 - `app.js` - small client-side interaction
 - `not_found.html` - fallback static error page
-- `week5-assignment.md` - written assignment submission content
-- `week5-day4-aws-s3-cloudfront-guide.md` - deployment walkthrough notes
 - `gh-actions-s3-cloudfront-vite-deploy.md` - CI/CD reference for later automation
 
 ## How To Run Locally
@@ -37,9 +35,3 @@ Open `index.html` in a browser, or serve the folder with any static server.
 4. Allow private S3 bucket access through CloudFront.
 5. Set the default root object to `index.html`.
 6. Wait for the distribution to finish deploying and test the CloudFront domain.
-
-## Submission Notes
-
-- This repo covers the plain HTML deployment portion of the assignment.
-- The React deployment is being completed from the separate repo linked above.
-- Add screenshots to your final submission materials before turning the assignment in.
