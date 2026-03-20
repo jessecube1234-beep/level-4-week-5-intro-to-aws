@@ -2,9 +2,34 @@
 
 ## Homework Day 1 – Intro to Serverless AWS
 
-Students must submit a short Markdown file (or Google Docs) with:
-
 ---
+##Lamda Function
+
+```
+export const handler = async (event) => {
+  console.log("Incoming event:", JSON.stringify(event));
+
+  // TODO implement
+  const response = {
+    statusCode: 200,
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: "Hello from Lambda!",
+      path: event?.rawPath ?? null,
+      method: event?.requestContext?.http?.method ?? null,
+      time: new Date().toISOString()
+    })
+  };
+
+  return response;
+};
+
+```
+
+
+Students must submit a short Markdown file (or Google Docs) with:
 
 ## A) Proof Screenshots
 
