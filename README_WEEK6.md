@@ -1,0 +1,27 @@
+# Advanced AWS – Week 6
+
+## Homework Day 1 – Intro to Serverless AWS
+
+Students must submit a short Markdown file (or Google Docs) with:
+
+---
+
+## A) Proof Screenshots
+
+1. Lambda function list showing `lv4-week6-hello`  
+2. Lambda test result showing success  
+3. API Gateway HTTP API page showing:  
+   - route `GET /hello`  
+   - invoke URL  
+4. Postman request + response (200)  
+5. CloudWatch log stream with the "Incoming event" line  
+
+---
+
+## B) Concept Questions
+
+1. In one paragraph: What problem does API Gateway solve that Lambda alone does not?  
+2. Why does the Lambda proxy response require `statusCode`, `headers`, and string `body`?  
+3. What are the free-tier headline limits for:
+   - API Gateway HTTP APIs  
+   - Lambda requests/compute  
