@@ -285,5 +285,6 @@ Ensure:
      
 
 5) CloudWatch logs showing at least one request hitting the Express app
-   <img width="670" height="643" alt="image" src="https://github.com/user-attachments/assets/153dc587-fd74-4a99-8ac0-10c6e7f8064b" />
+   <img width="1200" height="119" alt="image" src="https://github.com/user-attachments/assets/dda7c576-4d50-4fab-ba14-10d8a412d12d" />
+
 
