@@ -252,13 +252,29 @@ Ensure:
 # Homework (60 minutes) — screenshots required
 
 1) Lambda function config (runtime, handler, env vars)
-2) API Gateway HTTP API routes showing `$default`
-3) Postman:
+   
+   runtime and handler:
+
+    <img width="1417" height="136" alt="image" src="https://github.com/user-attachments/assets/96e69dac-ebc2-4850-a655-3179431554f1" />
+
+
+   env vars:
+
+   <img width="712" height="725" alt="image" src="https://github.com/user-attachments/assets/bde0ed47-aeca-4717-a215-7c6c86768e69" />
+
+   <img width="1044" height="649" alt="image" src="https://github.com/user-attachments/assets/0281e0cd-2dd3-4eab-b806-f2558c5ed7ba" />
+
+
+   
+3) API Gateway HTTP API routes showing `$default`
+   
+   <img width="582" height="216" alt="image" src="https://github.com/user-attachments/assets/d28d323e-d573-4f69-aedd-f76b85aaf861" />
+
+4) Postman:
    - register
 
      <img width="920" height="835" alt="image" src="https://github.com/user-attachments/assets/2d4582da-cd50-420a-ae29-17b641fa2047" />
      
-
    - login
 
       <img width="921" height="564" alt="image" src="https://github.com/user-attachments/assets/6cb7eae4-ad95-4a63-9c53-27d53e92025f" />
@@ -268,4 +284,6 @@ Ensure:
      <img width="927" height="794" alt="image" src="https://github.com/user-attachments/assets/ccb7061c-11f4-42fe-b625-586d324e8702" />
      
 
-4) CloudWatch logs showing at least one request hitting the Express app
+5) CloudWatch logs showing at least one request hitting the Express app
+   <img width="670" height="643" alt="image" src="https://github.com/user-attachments/assets/153dc587-fd74-4a99-8ac0-10c6e7f8064b" />
+
